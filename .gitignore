@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+
+# Keep this only if your professor does NOT require the pkl in Git
+# data/*.pkl
