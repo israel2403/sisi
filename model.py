@@ -145,7 +145,7 @@ class Medicion(ABC):
     @property
     def fecha(self) -> datetime:
         """Return the measurment date."""
-        return self.fecha
+        return self._fecha
 
     @fecha.setter
     def fecha(self, value: datetime) -> None:
